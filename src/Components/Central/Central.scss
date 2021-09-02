@@ -4,6 +4,7 @@
     border-bottom: 2px solid #E5E5E5;
     padding-top: 20px;
     margin-bottom: 100px;
+    position: relative;
    
 }
 h1{
@@ -15,4 +16,88 @@ h1{
     padding-right: 20px;
     padding-left: 20px;
 
+}
+.central-form{
+    border-bottom: 2px solid #E5E5E5;
+    position: relative;   
+    padding-left: 80px;
+    
+}
+
+//img
+.theme-icon{
+    width:22px ;
+    height: 21px;
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    cursor: pointer;
+
+}
+.central-input-profile{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+
+}
+
+.form_img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.form_gif{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.form_gif-right{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.form_smile{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.form_kalendar{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.central-input{
+    border: none;
+    width: 100%;
+    height: 80px;
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-left: 5px;
+
+}
+
+.form_btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 120px;
+    background: #1DA1F2;
+    color: white;
+    border: 1px solid #1DA1F2;
+    
+
+    &:hover{
+        color: #1DA1F2;
+        font-weight: bold;
+        background: #fff;
+        transition: 0.5s;
+       
+    }
+}
+.div-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
