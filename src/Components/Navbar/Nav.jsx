@@ -12,6 +12,7 @@ import ProfileIcon from '../../Assets/Images/profil.png';
 import MoreIcon from '../../Assets/Images/more.png';
 import ProfileBro from '../../Assets/Images/profile-brat.png';
 import Tochka from '../../Assets/Images/tochki.png';
+import Central from "../Central/Central";
 
 
 
@@ -86,6 +87,7 @@ function Nav (){
                   </li>
               </ul>
           </div>
+          <Central/>
         </div>
         </>
     )

@@ -66,10 +66,17 @@
     width: 17px;
     height: 4px;
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 16px;
 }
-
+//nav-div
+.nav-div{
+    max-width: 250px;
+    width: 30%;
+    height: 970px;
+    border-right: 2px solid  #E5E5E5;
+    padding-top: 30px;
+}
 //button-nav
 .nav-btn{
     width: 220px;
@@ -86,7 +93,7 @@
         font-weight: bold;
         transition: 0.5s ease;
     }
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 //ul-nav
