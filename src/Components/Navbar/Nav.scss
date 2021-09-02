@@ -1,0 +1,125 @@
+//images
+
+.logo-img{
+    width: 40px;
+    height: 33px;
+    position: absolute;
+}
+.home-icon{
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    top: -5px;
+    
+    
+}
+.sharp-icon{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: -1.5px;
+}
+.colocol-icon{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: -1px;
+}
+.message-icon{
+    width: 23px;
+    height: 21px;
+    position: absolute;
+    top: -1px;
+}
+.zakladka-icon{
+    width: 20px;
+    height: 23px;
+    position: absolute;
+    top: -1px;
+}
+.list-icon{
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: -3px;
+}
+.profile-icon{
+    width: 20px;
+    height: 23px;
+    position: absolute;
+    top: -1px;
+}
+.more-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -2px;
+}
+.profile-bro{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -60px;
+    top: -5px;
+}
+.tochka-icon{
+    width: 17px;
+    height: 4px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+
+//button-nav
+.nav-btn{
+    width: 220px;
+    height: 55px;
+    border-radius: 27.5px;
+    border: 1px solid #1D9BF0;
+    background: #1D9BF0;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover{
+        background:#fff;
+        color: #1D9BF0;
+        font-weight: bold;
+        transition: 0.5s ease;
+    }
+    margin-bottom: 250px;
+}
+
+//ul-nav
+.nav-list{
+    margin-top: 110px;
+   
+   
+}
+.nav-item{
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.dark{
+    color: #000;
+}
+.nav-text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 45px;
+    &:hover{
+        font-size: 19px;
+         transition: 0.3s ;
+    }
+}
+.profile-item{
+    margin-left: 60px;
+}
+.bro-username{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
