@@ -45,27 +45,49 @@ h1{
     width: 20px;
     height: 20px;
     position: absolute;
+    left: 0;
+    cursor: pointer;
 }
 .form_gif{
     width: 20px;
     height: 20px;
     position: absolute;
+    left: 20px;
+    cursor: pointer;
 }
 .form_gif-right{
     width: 20px;
     height: 20px;
     position: absolute;
+    left: 40px;
+    cursor: pointer;
 }
 .form_smile{
     width: 20px;
     height: 20px;
     position: absolute;
+    left: 60px;
+    cursor: pointer;
 }
 .form_kalendar{
     width: 20px;
     height: 20px;
     position: absolute;
+    left: 80px;
+    cursor: pointer;
 }
+//img down
+.central_profile-users{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.central_tochka{
+    width:17px ;
+    height: 4px;
+}
+
+//
 
 .central-input{
     border: none;

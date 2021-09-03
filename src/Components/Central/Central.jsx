@@ -62,33 +62,33 @@ function Central (){
 
                        <div className="popularnosti">
                            <span className="comments">
-                               <img src="" alt="icon" className="comments-icon" />
+                               <img src={Comments} alt="icon" className="comments-icon" />
                                <p className="comments-number">
                                     10
                                </p>
                            </span>
 
                            <span className="st">
-                               <img src="" alt="icon" className="st-icon" />
+                               <img src={Strelka} alt="icon" className="st-icon" />
                                <p className="st-number">
                                    1
                                </p>
                            </span>
 
                            <span className="like">
-                               <img src="" alt="icon" className="like-icon" />
+                               <img src={Like} alt="icon" className="like-icon" />
                                <p className="like-number">
                                    8
                                </p>
                            </span>
 
                            <span className="downloads">
-                               <img src="" alt="icon" className="downloads-icon" />
+                               <img src={Download} alt="icon" className="downloads-icon" />
                               
                            </span>
 
                            <span className="shkala">
-                               <img src="" alt="icon" className="shkala-icon" />
+                               <img src={Shkala} alt="icon" className="shkala-icon" />
                                
                            </span>
                        </div>
@@ -104,33 +104,33 @@ function Central (){
 
                         <div className="popularnosti">
                            <span className="comments">
-                               <img src="" alt="icon" className="comments-icon" />
+                               <img src={Comments} alt="icon" className="comments-icon" />
                                <p className="comments-number">
 
                                </p>
                            </span>
 
                            <span className="st">
-                               <img src="" alt="icon" className="st-icon" />
+                               <img src={StrelkaGreen} alt="icon" className="st-icon" />
                                <p className="st-number-green">
                                    5
                                </p>
                            </span>
 
                            <span className="like">
-                               <img src="" alt="icon" className="like-icon" />
+                               <img src={LikeRed} alt="icon" className="like-icon" />
                                <p className="like-number-red">
                                    9
                                </p>
                            </span>
 
                            <span className="downloads">
-                               <img src="" alt="icon" className="downloads-icon" />
+                               <img src={Download} alt="icon" className="downloads-icon" />
                               
                            </span>
 
                            <span className="shkala">
-                               <img src="" alt="icon" className="shkala-icon" />
+                               <img src={Shkala} alt="icon" className="shkala-icon" />
                                
                            </span>
                        </div>
@@ -146,37 +146,37 @@ function Central (){
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
 
-                        <img src="" alt="photo" className="wawli-img" />
+                        <img src={Shashli} alt="photo" className="wawli-img" />
 
                          <div className="popularnosti">
                            <span className="comments">
-                               <img src="" alt="icon" className="comments-icon" />
+                               <img src={Comments} alt="icon" className="comments-icon" />
                                <p className="comments-number">
                                     10
                                </p>
                            </span>
 
                            <span className="st">
-                               <img src="" alt="icon" className="st-icon" />
+                               <img src={Strelka} alt="icon" className="st-icon" />
                                <p className="st-number">
                                    1
                                </p>
                            </span>
 
                            <span className="like">
-                               <img src="" alt="icon" className="like-icon" />
+                               <img src={Like} alt="icon" className="like-icon" />
                                <p className="like-number">
                                    8
                                </p>
                            </span>
 
                            <span className="downloads">
-                               <img src="" alt="icon" className="downloads-icon" />
+                               <img src={Download} alt="icon" className="downloads-icon" />
                               
                            </span>
 
                            <span className="shkala">
-                               <img src="" alt="icon" className="shkala-icon" />
+                               <img src={Shkala} alt="icon" className="shkala-icon" />
                                
                            </span>
                        </div>
