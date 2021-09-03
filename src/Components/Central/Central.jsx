@@ -14,6 +14,7 @@ import Shashli from '../../Assets/Images/wawli.png';
 import Shkala from '../../Assets/Images/shkala.png';
 import ProfileKam from '../../Assets/Images/profile-kam.png';
 import ProfileOchki from '../../Assets/Images/profile-ochki.png';
+import ProfileHappy from '../../Assets/Images/profile-happy.png';
 import Gif from '../../Assets/Images/gif.png';
 import GifRight from '../../Assets/Images/gif-right.png';
 import Img from '../../Assets/Images/img.png';
@@ -49,6 +50,139 @@ function Central (){
                  
 
                </form>
+
+               <ul className="central-list">
+                   <li className="central-item">
+                       <img src={ProfileKam} alt="profile" className="central_profile-users" />
+                       <h3 className="users-name">Designsta</h3>
+                       <span className="user-cam-id">@inner · 25m</span>
+                       <p className="central_users-text">Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
+
+                       <img src={Tochka} alt="icon" className="central_tochka" />
+
+                       <div className="popularnosti">
+                           <span className="comments">
+                               <img src="" alt="icon" className="comments-icon" />
+                               <p className="comments-number">
+                                    10
+                               </p>
+                           </span>
+
+                           <span className="st">
+                               <img src="" alt="icon" className="st-icon" />
+                               <p className="st-number">
+                                   1
+                               </p>
+                           </span>
+
+                           <span className="like">
+                               <img src="" alt="icon" className="like-icon" />
+                               <p className="like-number">
+                                   8
+                               </p>
+                           </span>
+
+                           <span className="downloads">
+                               <img src="" alt="icon" className="downloads-icon" />
+                              
+                           </span>
+
+                           <span className="shkala">
+                               <img src="" alt="icon" className="shkala-icon" />
+                               
+                           </span>
+                       </div>
+                    </li>
+
+                    <li className="central-item">
+                       <img src={ProfileOchki} alt="profile" className="central_profile-users" />
+                       <h3 className="users-name">cloutexhibition</h3>
+                        <span className="user-ochki-id">@RajLahoti · 22m</span>
+                        <p className="central_users-text">YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va <br /> yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
+
+                        <img src={Tochka} alt="icon" className="central_tochka" />
+
+                        <div className="popularnosti">
+                           <span className="comments">
+                               <img src="" alt="icon" className="comments-icon" />
+                               <p className="comments-number">
+
+                               </p>
+                           </span>
+
+                           <span className="st">
+                               <img src="" alt="icon" className="st-icon" />
+                               <p className="st-number-green">
+                                   5
+                               </p>
+                           </span>
+
+                           <span className="like">
+                               <img src="" alt="icon" className="like-icon" />
+                               <p className="like-number-red">
+                                   9
+                               </p>
+                           </span>
+
+                           <span className="downloads">
+                               <img src="" alt="icon" className="downloads-icon" />
+                              
+                           </span>
+
+                           <span className="shkala">
+                               <img src="" alt="icon" className="shkala-icon" />
+                               
+                           </span>
+                       </div>
+
+                    </li>
+
+                    <li className="central-item">
+                       <img src={ProfileHappy} alt="profile" className="central_profile-users" />
+                       <h3 className="users-name">CreativePhoto</h3>
+                        <span className="user-happy-id">@cloutexhibition · 1h</span>
+                        <p className="central_users-text">Обетда..... <br/>
+                        Кечиринглар</p>
+
+                        <img src={Tochka} alt="icon" className="central_tochka" />
+
+                        <img src="" alt="photo" className="wawli-img" />
+
+                         <div className="popularnosti">
+                           <span className="comments">
+                               <img src="" alt="icon" className="comments-icon" />
+                               <p className="comments-number">
+                                    10
+                               </p>
+                           </span>
+
+                           <span className="st">
+                               <img src="" alt="icon" className="st-icon" />
+                               <p className="st-number">
+                                   1
+                               </p>
+                           </span>
+
+                           <span className="like">
+                               <img src="" alt="icon" className="like-icon" />
+                               <p className="like-number">
+                                   8
+                               </p>
+                           </span>
+
+                           <span className="downloads">
+                               <img src="" alt="icon" className="downloads-icon" />
+                              
+                           </span>
+
+                           <span className="shkala">
+                               <img src="" alt="icon" className="shkala-icon" />
+                               
+                           </span>
+                       </div>
+
+                    </li>
+               </ul>
             </div>
         </>
     )
