@@ -20,6 +20,8 @@ import GifRight from '../../Assets/Images/gif-right.png';
 import Img from '../../Assets/Images/img.png';
 import Kalendar from '../../Assets/Images/kalendar.png';
 import ProfileBro from '../../Assets/Images/profile-brat.png';
+//components
+import End from "../EndSection/End";
 
 
 
@@ -38,11 +40,11 @@ function Central (){
 
                    <input type="text" name='input-post' placeholder='What’s happening' className="central-input" />
 
-                   <img src={Img} alt="logo" className='form_img' />
-                   <img src={Gif} alt="logo" className='form_gif' />
-                   <img src={GifRight} alt="logo" className='form_gif-right' />
-                   <img src={Smile} alt="logo" className='form_smile' />
-                   <img src={Kalendar} alt="logo" className='form_kalendar' />
+                  <button type="button" className="logo-btn"> <img src={Img} alt="logo" className='form_img' /></button>
+                  <button type="button" className="logo-btn"> <img src={Gif} alt="logo" className='form_gif' /></button>
+                   <button type="button" className="logo-btn"><img src={GifRight} alt="logo" className='form_gif-right' /></button>
+                  <button type="button" className="logo-btn"> <img src={Smile} alt="logo" className='form_smile' /></button>
+                   <button type="button" className="logo-btn"><img src={Kalendar} alt="logo" className='form_kalendar' /></button>
 
                     <div className="div-button">
                     <button type='submit' className="form_btn">Tweet</button>
@@ -54,9 +56,11 @@ function Central (){
                <ul className="central-list">
                    <li className="central-item">
                        <img src={ProfileKam} alt="profile" className="central_profile-users" />
+                       <div className="li_div">
                        <h3 className="users-name">Designsta</h3>
                        <span className="user-cam-id">@inner · 25m</span>
-                       <p className="central_users-text">Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
+                       </div>
+                       <p className="central_users-text dark">Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
 
                        <img src={Tochka} alt="icon" className="central_tochka" />
 
@@ -96,9 +100,11 @@ function Central (){
 
                     <li className="central-item">
                        <img src={ProfileOchki} alt="profile" className="central_profile-users" />
-                       <h3 className="users-name">cloutexhibition</h3>
+                        <div className="li_div">
+                        <h3 className="users-name">cloutexhibition</h3>
                         <span className="user-ochki-id">@RajLahoti · 22m</span>
-                        <p className="central_users-text">YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va <br /> yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
+                        </div>
+                        <p className="central_users-text dark">YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va <br /> yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
 
@@ -112,14 +118,14 @@ function Central (){
 
                            <span className="st">
                                <img src={StrelkaGreen} alt="icon" className="st-icon" />
-                               <p className="st-number-green">
+                               <p className="st-number-green green">
                                    5
                                </p>
                            </span>
 
                            <span className="like">
                                <img src={LikeRed} alt="icon" className="like-icon" />
-                               <p className="like-number-red">
+                               <p className="like-number-red red">
                                    9
                                </p>
                            </span>
@@ -139,14 +145,16 @@ function Central (){
 
                     <li className="central-item">
                        <img src={ProfileHappy} alt="profile" className="central_profile-users" />
-                       <h3 className="users-name">CreativePhoto</h3>
+                      <div className="li_div">
+                            <h3 className="users-name">CreativePhoto</h3>
                         <span className="user-happy-id">@cloutexhibition · 1h</span>
-                        <p className="central_users-text">Обетда..... <br/>
+                      </div>
+                        <p className="central_users-text dark">Обетда..... <br/>
                         Кечиринглар</p>
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
 
-                        <img src={Shashli} alt="photo" className="wawli-img" />
+                        <img src={Shashli} alt="photo" className="" />
 
                          <div className="popularnosti">
                            <span className="comments">
@@ -184,6 +192,7 @@ function Central (){
                     </li>
                </ul>
             </div>
+            <End/>
         </>
     )
 }
