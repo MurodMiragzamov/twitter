@@ -15,7 +15,7 @@ function End (){
         <>
             <div className="end-div">
                 <div className="div-input-search">
-                <input type="text" name="search-imput" placeholder='Search Twitter' className='search-imput' />
+                <input autocomplete="off" type="text" name="search-imput" placeholder='Search Twitter' className='search-imput' />
                 <img src={Search} alt="icon" className="search-icon" />
                 </div>
 

@@ -38,7 +38,7 @@ function Central (){
                <form  className="central-form">
                    <img src={ProfileBro} alt="profilelogo" className='central-input-profile' />
 
-                   <input type="text" name='input-post' placeholder='What’s happening' className="central-input" />
+                   <input autocomplete="off" type="text" name='input-post' placeholder='What’s happening' className="central-input" />
 
                   <button type="button" className="logo-btn"> <img src={Img} alt="logo" className='form_img' /></button>
                   <button type="button" className="logo-btn"> <img src={Gif} alt="logo" className='form_gif' /></button>
