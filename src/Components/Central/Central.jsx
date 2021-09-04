@@ -154,7 +154,7 @@ function Central (){
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
 
-                        <img src={Shashli} alt="photo" className="" />
+                        <img src={Shashli} alt="icon" className="wawli-img" />
 
                          <div className="popularnosti">
                            <span className="comments">

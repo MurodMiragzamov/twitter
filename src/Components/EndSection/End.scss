@@ -1,0 +1,170 @@
+.end-div{
+    padding-left: 25px;
+    padding-top: 20px;
+    height: 970px;
+    border-left: 2px solid  #E5E5E5;
+}
+.div-input-search{
+position: relative;
+
+
+}
+.search-imput{
+    width: 373px;
+    height: 55px;
+    background: #EFF3F4;
+    border-radius: 31px;
+    outline: none;
+    border: 1px solid #EFF3F4;
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5C6C79;
+}
+
+
+.end-list{
+    width: 373px;
+    background: #F7F9F9;
+    border-radius: 10px;
+    margin-top:20px ;
+    li{
+        position: relative;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.end-header{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.end-item_span{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #393B41;
+    opacity: 0.6;
+    
+}
+
+.end-button{
+border: none;
+color:#1DA1F2 ;
+font-size: 18px;
+line-height: 100%;
+margin-bottom: 15px;
+margin-top: 10px;
+background: inherit;
+cursor: pointer;
+  
+
+}
+
+
+//ul2
+
+.might-list{
+    background: #F7F9F9;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    li{
+
+      padding-bottom: 15px;
+        .end-button{
+            margin-bottom: 20px;
+        }
+        .might-header{
+            margin-top: 20px;
+        }
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .profile_btn{
+            width: 92px;
+            height: 38px;
+            background: #000;
+            color: white;
+            border-radius: 50px;
+            border: 2px solid black;
+            cursor: pointer ;
+
+            &:hover{
+                background: #fff;
+                color: black;
+                font-weight: bold;
+                transition: 0.5s ;
+            }
+        }
+    }
+
+}
+
+.might-profile{
+    padding-left: 70px;
+}
+
+//
+//images
+.end-tochka{
+    width:17px ;
+    height: 4px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+
+}
+.settings-icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    cursor: pointer;
+}
+.search-icon{
+    width:19px ;
+    height: 19px;
+    position: absolute;
+    left: 20px;
+    top: 17px;
+}
+
+
+.might-profile-img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 373px;
+   
+    li{
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #536471;
+        font-size: 16px;
+        line-height: 21px;
+        a{
+            color: #536471;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+}
