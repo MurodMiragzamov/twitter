@@ -48,7 +48,7 @@ import ProfileBoy from './Assets/Images/profile-boy.png';
 //components
 function App (){
 
-  const [lang,setLang]=React.useState('en')
+  const [lang,setLang]=React.useState(JSON.parse(window.localStorage.getItem('lg'))||'en')
    
       return (
           <>
@@ -60,6 +60,8 @@ function App (){
                 <select
                 onChange={(evt)=>{
                   setLang(evt.target.value);
+
+                  window.localStorage.setItem('lg',JSON.stringify(evt.target.value))
                 }}
                 value={lang}
                  className="select" >
