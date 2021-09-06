@@ -60,13 +60,13 @@ const content = {
         blackbtn:'Подписаться',
         tweetbtn:'Твитнуть',
 
-        footerterms:'Условия обслуживания',
-        footerprivacy:'Политика конфиденциальности',
-        footercookie:'Политика использования файлов ',
-        footerimprint:'Отпечаток',
-        footerinfo:'Информация о рекламе',
-        footermore:'Более ···',
-       
+        footer_terms:'Условия обслуживания',
+        footer_privacy:'Политика конфиденциальности',
+        footer_cookie:'Политика использования файлов ',
+        footer_imprint:'Отпечаток',
+        footer_info:'Информация о рекламе',
+        footer_more:'Более ···',
+        footer_twitter:'© 2021 Twitter, Inc.',
 
 
     }

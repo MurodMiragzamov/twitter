@@ -353,12 +353,12 @@ function App (){
                 </ul>
 
               <ul className="footer-list">
-                    <li className="footer-item"> {content[lang]. footerterms}</li>
-                    <li className="footer-item"><a href="profile.html"> {content[lang]. footerprivacy}</a></li>
-                    <li className="footer-item"> {content[lang]. footercookie}</li>
-                    <li className="footer-item"> {content[lang]. footerimprint}</li>
-                    <li className="footer-item"> {content[lang]. footerinfo}</li>
-                    <li className="footer-item"> {content[lang]. footermore}</li>
+                    <li className="footer-item"> {content[lang]. footer_terms}</li>
+                    <li className="footer-item"><a href="profile.html"> {content[lang]. footer_privacy}</a></li>
+                    <li className="footer-item"> {content[lang]. footer_cookie}</li>
+                    <li className="footer-item"> {content[lang]. footer_imprint}</li>
+                    <li className="footer-item"> {content[lang]. footer_info}</li>
+                    <li className="footer-item"> {content[lang]. footer_more}</li>
                     <li className="footer-item">© 2021 Twitter, Inc.</li>
               </ul>
               
