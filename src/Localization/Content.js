@@ -60,9 +60,9 @@ const content = {
         blackbtn:'Подписаться',
         tweetbtn:'Твитнуть',
 
-        footer_terms:'условия обслуживания',
-        footer_privacy:'Privacy Policy',
-        footer_cookie:'Политика конфиденциальности',
+        footer_terms:'Условия обслуживания',
+        footer_privacy:'Политика конфиденциальности',
+        footer_cookie:'Политика использования файлов ',
         footer_imprint:'Отпечаток',
         footer_info:'Информация о рекламе',
         footer_more:'Более ···',
