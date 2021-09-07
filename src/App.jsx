@@ -44,14 +44,21 @@ import Search from './Assets/Images/search.png';
 import ProfileGirl from './Assets/Images/profile-girl.png';
 import ProfileBoy from './Assets/Images/profile-boy.png';
 
+import { Context } from './Context/Theme';
+
 
 //components
 function App (){
 
   const [lang,setLang]=React.useState(JSON.parse(window.localStorage.getItem('lg'))||'en')
-   
+
+  const {theme,setTheme} = React.useContext(Context)
+  
+
       return (
           <>
+
+          <section className={`global-section ${theme}`}>
           <div className="container">
             <div className="nav-div">
   
@@ -68,54 +75,65 @@ function App (){
                   <option value="en">en</option>
                   <option value="ru">ru</option>
                 </select>
+
+
+                <select value={theme} className='select-theme' onChange={(evt)=>{
+                    setTheme(evt.target.value) 
+                    window.localStorage.setItem('th',JSON.stringify(evt.target.value))
+                    }}>
+
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+
+                </select>
   
                 <ul className="nav-list">
                     <li className="nav-item">  
                     <a href="index.html" className="icon-link">
                       <img src={HomeIcon} alt="logo" className="home-icon" />
-                      <h4 className="nav-text dark">{content[lang].home}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].home}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={SharpIcon} alt="logo" className="sharp-icon" />
-                      <h4 className="nav-text dark">{content[lang].sharp}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].sharp}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={ColocolIcon} alt="logo" className="colocol-icon" />
-                      <h4 className="nav-text dark">{content[lang].colocol}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].colocol}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={MessageIcon} alt="logo" className="message-icon" />
-                      <h4 className="nav-text dark">{content[lang].message}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].message}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={ZakladkaIcon} alt="logo" className="zakladka-icon" />
-                      <h4 className="nav-text dark">{content[lang].zakladka}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].zakladka}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={ListIcon} alt="logo" className="list-icon" />
-                      <h4 className="nav-text dark">{content[lang].list}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].list}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={ProfileIcon} alt="logo" className="profile-icon" />
-                      <h4 className="nav-text dark">{content[lang].profile}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].profile}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
                     <a href="index.html" className="icon-link">
                       <img src={MoreIcon} alt="logo" className="more-icon" />
-                      <h4 className="nav-text dark">{content[lang].more}</h4>
+                      <h4 className={`nav-text ${theme}`}>{content[lang].more}</h4>
                     </a>
                     </li>
                     <li className="nav-item">
@@ -129,14 +147,21 @@ function App (){
                     </li>
                 </ul>
             </div>
-            
-            <div className="div-central">
-               <h1 className='dark'>{content[lang].home}</h1>
+
+
+
+        {/* /////////////////// */}
+
+
+
+
+            <div className={`div-central ${theme}`}>
+               <h1 >{content[lang].home}</h1>
                <img src={Theme} alt="logo" className="theme-icon" />
-               <form  className="central-form">
+               <form  className={`central-form ${theme}`}>
                    <img src={ProfileBro} alt="profilelogo" className='central-input-profile' />
 
-                   <input autocomplete="off" type="text" name='input-post' placeholder={content[lang].inputone} className="central-input" />
+                   <input autocomplete="off" type="text" name='input-post' placeholder={content[lang].inputone} className={`central-input ${theme}`} />
 
                   <button type="button" className="logo-btn"> <img src={Img} alt="logo" className='form_img' /></button>
                   <button type="button" className="logo-btn"> <img src={Gif} alt="logo" className='form_gif' /></button>
@@ -158,7 +183,7 @@ function App (){
                        <h3 className="users-name">Designsta</h3>
                        <span className="user-cam-id">@inner · 25m</span>
                        </div>
-                       <p className="central_users-text dark">Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
+                       <p className="central_users-text ">Twitterdagi ayol-erkak qarama-qarshiliginglardan o'zinglar zerikmadinglarmi?</p>
 
                        <img src={Tochka} alt="icon" className="central_tochka" />
 
@@ -202,7 +227,7 @@ function App (){
                         <h3 className="users-name">cloutexhibition</h3>
                         <span className="user-ochki-id">@RajLahoti · 22m</span>
                         </div>
-                        <p className="central_users-text dark">YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va <br /> yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
+                        <p className="central_users-text ">YPIP dasturining bu yilgi sezoni ham o’z nihoyasiga yetmoqda. Mentorlik davomida talaba va <br /> yangi bitiruvchilarni o’sayotganini ko’rib hursand bo’ladi odam.</p>
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
 
@@ -247,7 +272,7 @@ function App (){
                             <h3 className="users-name">CreativePhoto</h3>
                         <span className="user-happy-id">@cloutexhibition · 1h</span>
                       </div>
-                        <p className="central_users-text dark">Обетда..... <br/>
+                        <p className="central_users-text ">Обетда..... <br/>
                         Кечиринглар</p>
 
                         <img src={Tochka} alt="icon" className="central_tochka" />
@@ -290,6 +315,12 @@ function App (){
                     </li>
                </ul>
             </div>
+
+
+{/* ///////////////////////// */}
+
+
+
 
             <div className="end-div">
                 <div className="div-input-search">
@@ -366,6 +397,8 @@ function App (){
               
             </div>
           </div>
+          </section>
+          
           </>
       )
   }

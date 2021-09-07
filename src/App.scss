@@ -32,11 +32,15 @@ img{
     position: absolute;
 }
 .home-icon{
+    
     width: 25px;
     height: 23px;
     position: absolute;
     top: -5px;
-    
+   background: #fff;
+   padding: 5px;
+   border-radius: 50%;
+   box-sizing: content-box;
     
 }
 .sharp-icon{
@@ -44,42 +48,74 @@ img{
     height: 22px;
     position: absolute;
     top: -1.5px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .colocol-icon{
     width: 23px;
     height: 23px;
     position: absolute;
     top: -1px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .message-icon{
     width: 23px;
     height: 21px;
     position: absolute;
     top: -1px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .zakladka-icon{
     width: 20px;
     height: 23px;
     position: absolute;
     top: -1px;
+    background: #fff;
+    padding: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .list-icon{
     width: 23px;
     height: 23px;
     position: absolute;
     top: -2px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .profile-icon{
     width: 20px;
     height: 23px;
     position: absolute;
     top: -1px;
+    background: #fff;
+    padding: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .more-icon{
     width: 25px;
     height: 25px;
     position: absolute;
     top: -2px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 .profile-bro{
     width: 50px;
@@ -87,13 +123,22 @@ img{
     position: absolute;
     left: -60px;
     top: -3px;
+    
 }
 .tochka-icon{
     width: 17px;
-    height: 4px;
+    height: 5px;
     position: absolute;
     right: -10px;
-    top: 16px;
+    cursor: pointer;
+    top: -3px;
+    background: #fff;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    box-sizing: content-box;
 }
 //nav-div
 .nav-div{
@@ -134,9 +179,7 @@ img{
     position: relative;
 }
 
-.dark{
-    color: #000;
-}
+
 .nav-text{
     font-weight: 600;
     font-size: 18px;
@@ -154,18 +197,10 @@ img{
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
-    color: #000000;
-    opacity: 0.6;
+    color:  rgb(189, 187, 187);
+   
 }
-.select{
-    position: absolute;
-    right: 520px;
-  
-    padding: 5px;
-    border-radius: 4px;
-    top: 22px;
-    z-index: 5;
-}
+
 
 
 
@@ -268,6 +303,13 @@ h1{
     right: 20px;
     top: 30px;
     cursor: pointer;
+    background: #fff;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    box-sizing: content-box;
 
 }
 .comments-icon{
@@ -378,9 +420,7 @@ h1{
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.dark{
-    color: black;
-}
+
 .red{
     color: red;
 
@@ -522,6 +562,7 @@ cursor: pointer;
     top: 16px;
     right: 20px;
     cursor: pointer;
+  
 
 }
 .settings-icon{
@@ -567,5 +608,54 @@ cursor: pointer;
             font-size: 16px;
             line-height: 21px;
         }
+    }
+}
+
+
+.select{
+    position: absolute;
+    right: 520px;
+  
+    padding: 5px;
+    border-radius: 4px;
+    top: 22px;
+    z-index: 5;
+}
+.select-theme{
+    position: absolute;
+    right: 580px;
+  
+    padding: 5px;
+    border-radius: 4px;
+    top: 22px;
+    z-index: 5;
+}
+//theme
+
+.dark{
+    color: white;
+    background: #202328
+}
+
+.light{
+   
+    background: #fff;
+    color: black;
+}
+
+.end-item_header{
+    color: black;
+}
+.might-header{
+    color: #000;
+}
+.profile_header{
+    color: black;
+  
+}
+.might-profile{
+    span{
+        color: black;
+        opacity: 0.7;
     }
 }
