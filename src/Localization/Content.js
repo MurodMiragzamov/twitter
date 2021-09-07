@@ -66,7 +66,7 @@ const content = {
         footer_imprint:'Отпечаток',
         footer_info:'Информация о рекламе',
         footer_more:'Более ···',
-        footer_twitter:'© 2021 Twitter, Inc.',
+      
 
 
     }
