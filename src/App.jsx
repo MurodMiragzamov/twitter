@@ -161,7 +161,7 @@ function App (){
                <form  className={`central-form ${theme}`}>
                    <img src={ProfileBro} alt="profilelogo" className='central-input-profile' />
 
-                   <input autocomplete="off" type="text" name='input-post' placeholder={content[lang].inputone} className={`central-input ${theme}`} />
+                   <input autoComplete="off" type="text" name='input-post' placeholder={content[lang].inputone} className={`central-input ${theme}`} />
 
                   <button type="button" className="logo-btn"> <img src={Img} alt="logo" className='form_img' /></button>
                   <button type="button" className="logo-btn"> <img src={Gif} alt="logo" className='form_gif' /></button>
@@ -324,7 +324,7 @@ function App (){
 
             <div className="end-div">
                 <div className="div-input-search">
-                <input autocomplete="off" type="text" name="search-imput" placeholder={content[lang].inputtwo} className='search-imput' />
+                <input autoComplete="off" type="text" name="search-imput" placeholder={content[lang].inputtwo} className='search-imput' />
                 <img src={Search} alt="icon" className="search-icon" />
                 </div>
 
