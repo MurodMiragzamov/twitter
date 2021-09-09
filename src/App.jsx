@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.scss";
 //components
+import Login from "./Pages/Login/Login";
+import Profile from "./Pages/Profile/Profile";
+import { NavLink } from "react-router-dom";
 
 //images
 import TwitterLogo from "./Assets/Images/twitter-logo.png";
@@ -89,10 +92,10 @@ function App() {
 
             <ul className="nav-list">
               <li className="nav-item">
-                <a href="index.html" className="icon-link">
+                <NavLink to="/" className="icon-link">
                   <img src={HomeIcon} alt="logo" className="home-icon" />
                   <h4 className={`nav-text ${theme}`}>{content[lang].home}</h4>
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a href="index.html" className="icon-link">
@@ -422,7 +425,7 @@ function App() {
                 <img src={ProfileBoy} alt="img" className="might-profile-img" />
                 <div className="might-profile">
                   <h4 className="profile_header">Shuhratbek</h4>
-                  <span>@mrshukhrat</span> 
+                  <span>@mrshukhrat</span>
                 </div>
                 <button className="profile_btn">
                   {" "}
